@@ -1,0 +1,16 @@
+LIBRARY d3dim
+
+EXPORTS
+D3DMalloc = _D3DMalloc @2
+D3DRealloc = _D3DRealloc @3
+D3DFree = _D3DFree @1
+Direct3DCreateDevice = _Direct3DCreateDevice @4
+Direct3DCreateTexture = _Direct3DCreateTexture @5
+Direct3DCreate = _Direct3DCreate @7
+PaletteUpdateNotify = _PaletteUpdateNotify @12
+PaletteAssociateNotify = _PaletteAssociateNotify @11
+SurfaceFlipNotify = _SurfaceFlipNotify @13
+FlushD3DDevices = _FlushD3DDevices @10
+FlushD3DDevices2 = _FlushD3DDevices2 @9
+Direct3D_HALCleanUp = _Direct3D_HALCleanUp @8
+Direct3DGetSWRastZPixFmts = _Direct3DGetSWRastZPixFmts @6

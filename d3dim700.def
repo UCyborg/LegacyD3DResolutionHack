@@ -1,0 +1,21 @@
+LIBRARY d3dim700
+
+EXPORTS
+D3DMalloc = _D3DMalloc @2
+D3DRealloc = _D3DRealloc @3
+D3DFree = _D3DFree @1
+Direct3DCreateDevice = _Direct3DCreateDevice @4
+CreateTexture = _CreateTexture @5
+DestroyTexture = _DestroyTexture @8
+SetPriority = _SetPriority @17
+GetPriority = _GetPriority @13
+SetLOD = _SetLOD @16
+GetLOD = _GetLOD @12
+Direct3DCreate = _Direct3DCreate @9
+FlushD3DDevices = _FlushD3DDevices @11
+PaletteUpdateNotify = _PaletteUpdateNotify @15
+PaletteAssociateNotify = _PaletteAssociateNotify @14
+SurfaceFlipNotify = _SurfaceFlipNotify @18
+D3DTextureUpdate = _D3DTextureUpdate @7
+D3DBreakVBLock = _D3DBreakVBLock @6
+Direct3D_HALCleanUp = _Direct3D_HALCleanUp @10
